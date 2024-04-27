@@ -10,6 +10,6 @@ import '@arco-design/web-vue/dist/arco.css';
 const app = createApp(App);
 // 使用 ArcoVue 组件库
 app.use(ArcoVue, {
-  componentPrefix: 'arco'
+  componentPrefix: 'a'
 });
 app.mount('#app')
