@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "@arco-design/web-vue": "^2.55.1",
+    "@unocss/preset-rem-to-px": "^0.59.4",
     "@vitejs/plugin-vue": "^5.0.4",
     "less": "^4.2.0",
     "typescript": "^5.2.2",

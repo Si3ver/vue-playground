@@ -15,6 +15,9 @@ importers:
       '@arco-design/web-vue':
         specifier: ^2.55.1
         version: 2.55.1(vue@3.4.25(typescript@5.4.5))
+      '@unocss/preset-rem-to-px':
+        specifier: ^0.59.4
+        version: 0.59.4
       '@vitejs/plugin-vue':
         specifier: ^5.0.4
         version: 5.0.4(vite@5.2.10(less@4.2.0))(vue@3.4.25(typescript@5.4.5))
@@ -512,6 +515,9 @@ packages:
 
   '@unocss/preset-mini@0.59.4':
     resolution: {integrity: sha512-ZLywGrXi1OCr4My5vX2rLUb5Xgx6ufR9WTQOvpQJGBdIV/jnZn/pyE5avCs476SnOq2K172lnd8mFmTK7/zArA==}
+
+  '@unocss/preset-rem-to-px@0.59.4':
+    resolution: {integrity: sha512-TNkF+pS/vNUq3ouhPa+ELK5r71woWPOINJGp93gzH090E14Gj6J/CtIXxOdv7wMKk1Vl+rXFsn04OuL5Ellb0g==}
 
   '@unocss/preset-tagify@0.59.4':
     resolution: {integrity: sha512-vWMdTUoghOSmTbdmZtERssffmdUdOuhh4vUdl0R8Kv6KxB0PkvEFCu2FItn97nRJdSPlZSFxxDkaOIg9w+STNQ==}
@@ -1686,6 +1692,10 @@ snapshots:
       '@unocss/core': 0.59.4
       '@unocss/extractor-arbitrary-variants': 0.59.4
       '@unocss/rule-utils': 0.59.4
+
+  '@unocss/preset-rem-to-px@0.59.4':
+    dependencies:
+      '@unocss/core': 0.59.4
 
   '@unocss/preset-tagify@0.59.4':
     dependencies:
